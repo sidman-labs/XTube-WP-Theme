@@ -1,0 +1,89 @@
+/* General */
+li#accordion-section-vtt_general > h3.accordion-section-title:before {
+    content: "\f111";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}
+/* Site Identity */
+li#accordion-section-title_tagline > h3.accordion-section-title:before {
+    content: "\f102";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+    left: -1px;
+}
+/* Colors */
+li#accordion-section-vtt_logo > h3.accordion-section-title:before {
+    content: "\f128";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}
+/* Sidebar */
+li#accordion-section-vtt_theme_layout_options > h3.accordion-section-title:before {
+    content: "\f510";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}
+/* Advertising */
+li#accordion-panel-vtt_ads > h3.accordion-section-title:before {
+    content: "\f521";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}
+/* SEO */
+li#accordion-panel-vtt_seo > h3.accordion-section-title:before {
+    content: "\f185";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}
+/* Copyright */
+li#accordion-section-vtt_copyright > h3.accordion-section-title:before {
+    content: "\f160";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}
+/* Scripts */
+li#accordion-section-vtt_scripts_section > h3.accordion-section-title:before {
+    content: "\f475";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}
+/* Menu */
+li#accordion-panel-nav_menus > h3.accordion-section-title:before {
+    content: "\f349";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}
+/* Menu */
+li#accordion-panel-widgets > h3.accordion-section-title:before {
+    content: "\f164";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}
+/* Additional CSS */
+li#accordion-section-custom_css > h3.accordion-section-title:before {
+    content: "\f540";
+    font-family: dashicons;
+    padding: 3px;
+    position: relative;
+    top: 2px;
+}

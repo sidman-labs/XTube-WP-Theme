@@ -1,0 +1,1071 @@
+# Copyright (C) 2021 VTube
+# This file is distributed under the same license as the VTube package.
+msgid ""
+msgstr ""
+"Project-Id-Version: VTube\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+
+#: 404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! That page can&rsquo;t be found."
+
+#: 404.php:17
+msgid "It looks like nothing was found. Please try another search."
+msgstr "It looks like nothing was found. Please try another search."
+
+#: 404.php:26
+msgid "In the meantime here are some videos you may like..."
+msgstr "In the meantime here are some videos you may like..."
+
+#: author.php:15
+msgid "Videos added by"
+msgstr "Videos added by"
+
+#: functions.php:225, functions.php:240, template-parts/content-filters.php:13, template-parts/content-filters.php:7
+msgid "Recently added videos"
+msgstr "Recently added videos"
+
+#: functions.php:228, inc/widget-video.php:179, template-parts/content-filters.php:14, template-parts/content-filters.php:8
+msgid "Most viewed videos"
+msgstr "Most viewed videos"
+
+#: functions.php:231, inc/widget-video.php:180, template-parts/content-filters.php:15, template-parts/content-filters.php:9
+msgid "Longest videos"
+msgstr "Longest videos"
+
+#: functions.php:234, inc/widget-video.php:181, template-parts/content-filters.php:16, template-parts/content-filters.php:10
+msgid "Popular videos"
+msgstr "Popular videos"
+
+#: functions.php:237, inc/widget-video.php:182, template-parts/content-filters.php:17, template-parts/content-filters.php:11
+msgid "Random videos"
+msgstr "Random videos"
+
+#: header.php:32
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: header.php:39
+msgid "Toggle navigation"
+msgstr "Toggle navigation"
+
+#: header.php:98, header.php:124
+msgid "Sign Up"
+msgstr "Sign Up"
+
+#: header.php:99, header.php:125, ajax/login-register.php:63, ajax/login-register.php:95
+msgid "Login"
+msgstr "Login"
+
+#: header.php:89, header.php:116
+msgid "Welcome"
+msgstr "Welcome"
+
+#: header.php:90, header.php:117
+msgid "Submit a Video"
+msgstr "Submit a Video"
+
+#: header.php:91, header.php:118
+msgid "My Channel"
+msgstr "My Channel"
+
+#: header.php:92, header.php:119
+msgid "My Profile"
+msgstr "My Profile"
+
+#: header.php:93, header.php:120
+msgid "Logout"
+msgstr "Logout"
+
+#: search.php:33, tag.php:36
+msgid "results"
+msgstr "results"
+
+#: searchform.php:6
+msgctxt "wpst"
+msgid "Search..."
+msgstr "Search..."
+
+#: searchform.php:6
+msgctxt "wpst"
+msgid "Search for:"
+msgstr "Search for:"
+
+#: template-actors.php:3, template-video-submit.php:137, inc/actors.php:20, inc/theme-activation.php:175
+msgid "Actors"
+msgstr "Actors"
+
+#: template-categories.php:3, inc/theme-activation.php:159
+msgid "Categories"
+msgstr "Categories"
+
+#: template-my-profile.php:3
+msgid "Profile"
+msgstr "Profile"
+
+#: template-my-profile.php:20
+msgid "The passwords you entered do not match. Your password was not updated."
+msgstr "The passwords you entered do not match. Your password was not updated."
+
+#: template-my-profile.php:30
+msgid "This email is already used by another user. Try a different one."
+msgstr "This email is already used by another user. Try a different one."
+
+#: template-my-profile.php:28
+msgid "The Email you entered is not valid. Please try again."
+msgstr "The Email you entered is not valid. Please try again."
+
+#: template-my-profile.php:148, template-video-submit.php:313
+msgid "You must be logged to submit a video. Please <a href=\"%s\">login</a> or <a href=\"%s\">register</a> a new account."
+msgstr "You must be logged to submit a video. Please <a href=\"%s\">login</a> or <a href=\"%s\">register</a> a new account."
+
+#: template-my-profile.php:68
+msgid "Your profile has been updated."
+msgstr "Your profile has been updated."
+
+#: template-my-profile.php:72
+msgid "First Name"
+msgstr "First Name"
+
+#: template-my-profile.php:76
+msgid "Last Name"
+msgstr "Last Name"
+
+#: template-my-profile.php:80
+msgid "Display Name as"
+msgstr "Display Name as"
+
+#: template-my-profile.php:114, ajax/login-register.php:25
+msgid "Email"
+msgstr "Email"
+
+#: template-my-profile.php:118
+msgid "Website"
+msgstr "Website"
+
+#: template-my-profile.php:122, ajax/login-register.php:29, ajax/login-register.php:58
+msgid "Password"
+msgstr "Password"
+
+#: template-my-profile.php:126
+msgid "Repeat Password"
+msgstr "Repeat Password"
+
+#: template-my-profile.php:130
+msgid "Biographical Information"
+msgstr "Biographical Information"
+
+#: template-my-profile.php:140
+msgid "Update your profile"
+msgstr "Update your profile"
+
+#: template-tags.php:3, template-video-submit.php:133, inc/theme-activation.php:167
+msgid "Tags"
+msgstr "Tags"
+
+#: template-video-submit.php:73
+msgid "Thanks for submitting a video! Your submission is being moderated."
+msgstr "Thanks for submitting a video! Your submission is being moderated."
+
+#: template-video-submit.php:104, inc/widget-video.php:166
+msgid "Title"
+msgstr "Title"
+
+#: template-video-submit.php:105
+msgid "Enter video title"
+msgstr "Enter video title"
+
+#: template-video-submit.php:108
+msgid "Description"
+msgstr "Description"
+
+#: template-video-submit.php:109
+msgid "Enter video description"
+msgstr "Enter video description"
+
+#: template-video-submit.php:112, admin/metabox.php:20
+msgid "Video URL"
+msgstr "Video URL"
+
+#: template-video-submit.php:113
+msgid "Enter MP4 video URL (eg. https://www.yourvideo.mp4)"
+msgstr "Enter MP4 video URL (eg. https://www.yourvideo.mp4)"
+
+#: template-video-submit.php:116
+msgid "Iframe / Embed code"
+msgstr "Iframe / Embed code"
+
+#: template-video-submit.php:117
+msgid "Enter iframe / embed code"
+msgstr "Enter iframe / embed code"
+
+#: template-video-submit.php:120
+msgid "Thumbnail URL"
+msgstr "Thumbnail URL"
+
+#: template-video-submit.php:121
+msgid "Enter image URL (eg. https://www.yourimage.jpg)"
+msgstr "Enter image URL (eg. https://www.yourimage.jpg)"
+
+#: template-video-submit.php:124, inc/widget-video.php:192
+msgid "Category"
+msgstr "Category"
+
+#: template-video-submit.php:133, template-video-submit.php:137
+msgid "separated by commas"
+msgstr "separated by commas"
+
+#: template-video-submit.php:140, admin/metabox.php:102
+msgid "Duration"
+msgstr "Duration"
+
+#: template-video-submit.php:154
+msgid "hour"
+msgstr "hour"
+
+#: template-video-submit.php:170
+msgid "min"
+msgstr "min"
+
+#: template-video-submit.php:235
+msgid "sec"
+msgstr "sec"
+
+#: template-video-submit.php:310
+msgid "Submit a video"
+msgstr "Submit a video"
+
+#: admin/metabox.php:6
+msgid "Video information"
+msgstr "Video information"
+
+#: admin/metabox.php:22
+msgid "Paste here the video URL or upload a video file (mp4, webm)."
+msgstr "Paste here the video URL or upload a video file (mp4, webm)."
+
+#: admin/metabox.php:32
+msgid "240p"
+msgstr "240p"
+
+#: admin/metabox.php:40
+msgid "360p"
+msgstr "360p"
+
+#: admin/metabox.php:48
+msgid "480p"
+msgstr "480p"
+
+#: admin/metabox.php:56
+msgid "720p"
+msgstr "720p"
+
+#: admin/metabox.php:64
+msgid "1080p"
+msgstr "1080p"
+
+#: admin/metabox.php:72
+msgid "4k"
+msgstr "4k"
+
+#: admin/metabox.php:84
+msgid "Video embed code"
+msgstr "Video embed code"
+
+#: admin/metabox.php:86
+msgid "Paste here the embed code (eg. Youtube iframe). It will automatically display the video player in the front of your site."
+msgstr "Paste here the embed code (eg. Youtube iframe). It will automatically display the video player in the front of your site."
+
+#: admin/metabox.php:93
+msgid "Video shortcode"
+msgstr "Video shortcode"
+
+#: admin/metabox.php:95
+msgid "Paste here the video shortcode (eg. [TM plugin=\"https://drive.google.com/...\"]). It will automatically display the video player in the front of your site."
+msgstr "Paste here the video shortcode (eg. [TM plugin=\"https://drive.google.com/...\"]). It will automatically display the video player in the front of your site."
+
+#: admin/metabox.php:112
+msgid "Views"
+msgstr "Views"
+
+#: admin/metabox.php:132
+msgid "Likes"
+msgstr "Likes"
+
+#: admin/metabox.php:152
+msgid "Dislikes"
+msgstr "Dislikes"
+
+#: admin/metabox.php:172
+msgid "Video trailer URL"
+msgstr "Video trailer URL"
+
+#: admin/metabox.php:174
+msgid "Paste here the video trailer URL or upload a video file (mp4 or webm). It will be used as video preview on mouse hover."
+msgstr "Paste here the video trailer URL or upload a video file (mp4 or webm). It will be used as video preview on mouse hover."
+
+#: admin/metabox.php:185
+msgid "Main thumbnail"
+msgstr "Main thumbnail"
+
+#: admin/metabox.php:187
+msgid "Paste here the main thumb URL or upload an image file. If there isn't a featured image, this image will be used as main thumb."
+msgstr "Paste here the main thumb URL or upload an image file. If there isn't a featured image, this image will be used as main thumb."
+
+#: admin/metabox.php:203
+msgid "Thumbnails"
+msgstr "Thumbnails"
+
+#: admin/metabox.php:205
+msgid "Used for thumbnails rotation."
+msgstr "Used for thumbnails rotation."
+
+#: admin/metabox.php:213
+msgid "Tracking URL"
+msgstr "Tracking URL"
+
+#: admin/metabox.php:215
+msgid "Paste here the tracking URL you want to display as link under the video in the front of your site (http://...)."
+msgstr "Paste here the tracking URL you want to display as link under the video in the front of your site (http://...)."
+
+#: admin/metabox.php:223
+msgid "Advertising under the video player"
+msgstr "Advertising under the video player"
+
+#: admin/metabox.php:225
+msgid "Paste here the code of your banner, it will be displayed under the video player."
+msgstr "Paste here the code of your banner, it will be displayed under the video player."
+
+#: admin/options.php:55, admin/options.php:56
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: admin/options.php:69
+msgid "Main tab"
+msgstr "Main tab"
+
+#: admin/options.php:85
+msgid "<a href=\"%s\">Click here</a> to go to the Customizer."
+msgstr "<a href=\"%s\">Click here</a> to go to the Customizer."
+
+#: ajax/login-register.php:43
+msgid "Registration is disabled."
+msgstr "Registration is disabled."
+
+#: ajax/login-register.php:16
+msgid "Join %s"
+msgstr "Join %s"
+
+#: ajax/login-register.php:21, ajax/login-register.php:54
+msgid "Username"
+msgstr "Username"
+
+#: ajax/login-register.php:37, ajax/login-register.php:63, ajax/login-register.php:82, ajax/login-register.php:90
+msgid "Loading..."
+msgstr "Loading..."
+
+#: ajax/login-register.php:37, ajax/login-register.php:94
+msgid "Sign up"
+msgstr "Sign up"
+
+#: ajax/login-register.php:49
+msgid "Login to %s"
+msgstr "Login to %s"
+
+#: ajax/login-register.php:63
+msgid "Lost Password?"
+msgstr "Lost Password?"
+
+#: ajax/login-register.php:72
+msgid "Reset Password"
+msgstr "Reset Password"
+
+#: ajax/login-register.php:73
+msgid "Enter the username or e-mail you used in your profile. A password reset link will be sent to you by email."
+msgstr "Enter the username or e-mail you used in your profile. A password reset link will be sent to you by email."
+
+#: ajax/login-register.php:77
+msgid "Username or E-mail"
+msgstr "Username or E-mail"
+
+#: ajax/login-register.php:82
+msgid "Get new password"
+msgstr "Get new password"
+
+#: ajax/login-register.php:94
+msgid "Don't have an account?"
+msgstr "Don't have an account?"
+
+#: ajax/login-register.php:95
+msgid "Already have an account?"
+msgstr "Already have an account?"
+
+#: ajax/login-register.php:135
+msgid "Login successful, reloading page..."
+msgstr "Login successful, reloading page..."
+
+#: ajax/login-register.php:127, ajax/login-register.php:163, ajax/login-register.php:229
+msgid "Please fill all form fields"
+msgstr "Please fill all form fields"
+
+#: ajax/login-register.php:122, ajax/login-register.php:157, ajax/login-register.php:224
+msgid "Session token has expired, please reload the page and try again"
+msgstr "Session token has expired, please reload the page and try again"
+
+#: ajax/login-register.php:208, ajax/login-register.php:182
+msgid "Registration complete. You can now login."
+msgstr "Registration complete. You can now login."
+
+#: ajax/login-register.php:187
+msgid "Please click on the reCAPTCHA box."
+msgstr "Please click on the reCAPTCHA box."
+
+#: ajax/login-register.php:184
+msgid "Captcha verification failed, please try again."
+msgstr "Captcha verification failed, please try again."
+
+#: ajax/login-register.php:248
+msgid "Password Reset. Please check your email."
+msgstr "Password Reset. Please check your email."
+
+#: ajax/login-register.php:268
+msgid "There is no user registered with that email address."
+msgstr "There is no user registered with that email address."
+
+#: ajax/login-register.php:264
+msgid "Please enter a username or e-mail address."
+msgstr "Please enter a username or e-mail address."
+
+#: ajax/login-register.php:280
+msgid "Invalid username or e-mail."
+msgstr "Invalid username or e-mail."
+
+#: ajax/login-register.php:292
+msgid "Password reset is not allowed for this user"
+msgstr "Password reset is not allowed for this user"
+
+#: ajax/login-register.php:310
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Someone requested that the password be reset for the following account:"
+
+#: ajax/login-register.php:312
+msgid "Username: %s"
+msgstr "Username: %s"
+
+#: ajax/login-register.php:313
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "If this was a mistake, just ignore this email and nothing will happen."
+
+#: ajax/login-register.php:314
+msgid "To reset your password, visit the following address:"
+msgstr "To reset your password, visit the following address:"
+
+#: ajax/login-register.php:323
+msgid "[%s] Password Reset"
+msgstr "[%s] Password Reset"
+
+#: ajax/login-register.php:328
+msgid "The e-mail could not be sent.<br />Possible reason: your host may have disabled the mail() function."
+msgstr "The e-mail could not be sent.<br />Possible reason: your host may have disabled the mail() function."
+
+#: inc/actor-image.php:34, inc/actor-image.php:63, inc/category-image.php:34, inc/category-image.php:63
+msgid "Image"
+msgstr "Image"
+
+#: inc/actor-image.php:38, inc/actor-image.php:74, inc/category-image.php:38, inc/category-image.php:74
+msgid "Add Image"
+msgstr "Add Image"
+
+#: inc/actor-image.php:39, inc/actor-image.php:75, inc/category-image.php:39, inc/category-image.php:75
+msgid "Remove Image"
+msgstr "Remove Image"
+
+#: inc/actors.php:6
+msgctxt "wpst"
+msgid "Actors"
+msgstr "Actors"
+
+#: inc/actors.php:7
+msgctxt "wpst"
+msgid "Actor"
+msgstr "Actor"
+
+#: inc/actors.php:8
+msgid "Search Actors"
+msgstr "Search Actors"
+
+#: inc/actors.php:9
+msgid "Popular Actors"
+msgstr "Popular Actors"
+
+#: inc/actors.php:10
+msgid "All Actors"
+msgstr "All Actors"
+
+#: inc/actors.php:13
+msgid "Edit Actor"
+msgstr "Edit Actor"
+
+#: inc/actors.php:14
+msgid "Update Actor"
+msgstr "Update Actor"
+
+#: inc/actors.php:15
+msgid "Add New Actor"
+msgstr "Add New Actor"
+
+#: inc/actors.php:16
+msgid "New Actor Name"
+msgstr "New Actor Name"
+
+#: inc/actors.php:17
+msgid "Separate Actors with commas"
+msgstr "Separate Actors with commas"
+
+#: inc/actors.php:18
+msgid "Add or remove Actors"
+msgstr "Add or remove Actors"
+
+#: inc/actors.php:19
+msgid "Choose from the most used Actors"
+msgstr "Choose from the most used Actors"
+
+#: inc/custom-header.php:45
+msgid "Default Header Image"
+msgstr "Default Header Image"
+
+#: inc/customizer.php:190
+msgid "General"
+msgstr "General"
+
+#: inc/customizer.php:208
+msgid "Main Color"
+msgstr "Main Color"
+
+#: inc/customizer.php:229
+msgid "Show tags in menu"
+msgstr "Show tags in menu"
+
+#: inc/customizer.php:230
+msgid "Show tags inside the main menu."
+msgstr "Show tags inside the main menu."
+
+#: inc/customizer.php:239
+msgid "Yes"
+msgstr "Yes"
+
+#: inc/customizer.php:240
+msgid "No"
+msgstr "No"
+
+#: inc/customizer.php:260
+msgid "See all tags menu text"
+msgstr "See all tags menu text"
+
+#: inc/customizer.php:261
+msgid "Change the text of the \"See all tags\" button in the menu."
+msgstr "Change the text of the \"See all tags\" button in the menu."
+
+#: inc/customizer.php:286
+msgid "Homepage video sorting"
+msgstr "Homepage video sorting"
+
+#: inc/customizer.php:287
+msgid "Choose the video sorting by default to display on your homepage."
+msgstr "Choose the video sorting by default to display on your homepage."
+
+#: inc/customizer.php:296
+msgid "Latest"
+msgstr "Latest"
+
+#: inc/customizer.php:297
+msgid "Most Viewed"
+msgstr "Most Viewed"
+
+#: inc/customizer.php:298
+msgid "Longest"
+msgstr "Longest"
+
+#: inc/customizer.php:299
+msgid "Popular"
+msgstr "Popular"
+
+#: inc/customizer.php:300
+msgid "Random"
+msgstr "Random"
+
+#: inc/customizer.php:312
+msgid "Logo & Favicon"
+msgstr "Logo & Favicon"
+
+#: inc/customizer.php:373
+msgid "Word 1"
+msgstr "Word 1"
+
+#: inc/customizer.php:395
+msgid "Word 2"
+msgstr "Word 2"
+
+#: inc/customizer.php:433, inc/widget-video.php:218
+msgid "Advertising"
+msgstr "Advertising"
+
+#: inc/customizer.php:434
+msgid "Settings to add ads into your site"
+msgstr "Settings to add ads into your site"
+
+#: inc/customizer.php:447, inc/customizer.php:903
+msgid "Homepage"
+msgstr "Homepage"
+
+#: inc/customizer.php:448
+msgid "Add your own ads on the homepage."
+msgstr "Add your own ads on the homepage."
+
+#: inc/customizer.php:489, inc/customizer.php:636, inc/customizer.php:695, inc/customizer.php:754, inc/customizer.php:813, inc/customizer.php:872
+msgid "Ad zone at the bottom of the page"
+msgstr "Ad zone at the bottom of the page"
+
+#: inc/customizer.php:506
+msgid "Single Video Page"
+msgstr "Single Video Page"
+
+#: inc/customizer.php:507
+msgid "Add your own ads on single video pages."
+msgstr "Add your own ads on single video pages."
+
+#: inc/customizer.php:526
+msgid "In player ad zone 1"
+msgstr "In player ad zone 1"
+
+#: inc/customizer.php:548
+msgid "In player ad zone 2"
+msgstr "In player ad zone 2"
+
+#: inc/customizer.php:592
+msgid "Beside player ad zone 1"
+msgstr "Beside player ad zone 1"
+
+#: inc/customizer.php:614
+msgid "Beside player ad zone 2"
+msgstr "Beside player ad zone 2"
+
+#: inc/customizer.php:653
+msgid "Category Page"
+msgstr "Category Page"
+
+#: inc/customizer.php:654
+msgid "Add your own ads on the Category pages."
+msgstr "Add your own ads on the Category pages."
+
+#: inc/customizer.php:712
+msgid "Tag Page"
+msgstr "Tag Page"
+
+#: inc/customizer.php:713
+msgid "Add your own ads on the Tag pages."
+msgstr "Add your own ads on the Tag pages."
+
+#: inc/customizer.php:771
+msgid "Actor Page"
+msgstr "Actor Page"
+
+#: inc/customizer.php:772
+msgid "Add your own ads on the actor pages."
+msgstr "Add your own ads on the actor pages."
+
+#: inc/customizer.php:830
+msgid "Search Result Page"
+msgstr "Search Result Page"
+
+#: inc/customizer.php:831
+msgid "Add your own ads on the search result pages."
+msgstr "Add your own ads on the search result pages."
+
+#: inc/customizer.php:889
+msgid "SEO"
+msgstr "SEO"
+
+#: inc/customizer.php:890
+msgid "Several settings pertaining my theme"
+msgstr "Several settings pertaining my theme"
+
+#: inc/customizer.php:904
+msgid "Rewrite content on homepage to improve SEO."
+msgstr "Rewrite content on homepage to improve SEO."
+
+#: inc/customizer.php:923
+msgid "Home Title"
+msgstr "Home Title"
+
+#: inc/customizer.php:946
+msgid "Home Description"
+msgstr "Home Description"
+
+#: inc/customizer.php:963
+msgid "Category pages"
+msgstr "Category pages"
+
+#: inc/customizer.php:964
+msgid "Rewrite content on category pages to improve SEO."
+msgstr "Rewrite content on category pages to improve SEO."
+
+#: inc/customizer.php:966
+msgid "display category name."
+msgstr "display category name."
+
+#: inc/customizer.php:987
+msgid "Category Title"
+msgstr "Category Title"
+
+#: inc/customizer.php:1008
+msgid "Category Description"
+msgstr "Category Description"
+
+#: inc/customizer.php:1025
+msgid "Tag pages"
+msgstr "Tag pages"
+
+#: inc/customizer.php:1026
+msgid "Rewrite content on tag pages to improve SEO."
+msgstr "Rewrite content on tag pages to improve SEO."
+
+#: inc/customizer.php:1028
+msgid "display tag name."
+msgstr "display tag name."
+
+#: inc/customizer.php:1049
+msgid "Tag Title"
+msgstr "Tag Title"
+
+#: inc/customizer.php:1070
+msgid "Tag Description"
+msgstr "Tag Description"
+
+#: inc/customizer.php:1087
+msgid "Actor pages"
+msgstr "Actor pages"
+
+#: inc/customizer.php:1088
+msgid "Rewrite content on actor pages to improve SEO."
+msgstr "Rewrite content on actor pages to improve SEO."
+
+#: inc/customizer.php:1090
+msgid "display actor name."
+msgstr "display actor name."
+
+#: inc/customizer.php:1111
+msgid "Actor Title"
+msgstr "Actor Title"
+
+#: inc/customizer.php:1132
+msgid "Actor Description"
+msgstr "Actor Description"
+
+#: inc/customizer.php:1149
+msgid "Search result pages"
+msgstr "Search result pages"
+
+#: inc/customizer.php:1150
+msgid "Rewrite content on search result pages."
+msgstr "Rewrite content on search result pages."
+
+#: inc/customizer.php:1152
+msgid "display search tag name."
+msgstr "display search tag name."
+
+#: inc/customizer.php:1153
+msgid "display search result number."
+msgstr "display search result number."
+
+#: inc/customizer.php:1174
+msgid "Search Title"
+msgstr "Search Title"
+
+#: inc/customizer.php:1195
+msgid "Search Description"
+msgstr "Search Description"
+
+#: inc/customizer.php:1209
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer.php:1218
+msgid "All rights reserved. Powered by WP-Script.com"
+msgstr "All rights reserved. Powered by WP-Script.com"
+
+#: inc/customizer.php:1228
+msgid "Content"
+msgstr "Content"
+
+#: inc/customizer.php:1242
+msgid "Scripts"
+msgstr "Scripts"
+
+#: inc/customizer.php:1261
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: inc/customizer.php:1265
+msgid "Paste here your Google Analytics tracking code."
+msgstr "Paste here your Google Analytics tracking code."
+
+#: inc/customizer.php:1284
+msgid "Meta Verification"
+msgstr "Meta Verification"
+
+#: inc/customizer.php:1288
+msgid "Paste here meta codes for domain verification."
+msgstr "Paste here meta codes for domain verification."
+
+#: inc/customizer.php:1307
+msgid "Other scripts"
+msgstr "Other scripts"
+
+#: inc/customizer.php:1311
+msgid "Paste here your other scripts (eg. popunder script)"
+msgstr "Paste here your other scripts (eg. popunder script)"
+
+#: inc/extras.php:89
+msgid "Post navigation"
+msgstr "Post navigation"
+
+#: inc/extras.php:93
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+msgstr "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+
+#: inc/extras.php:96
+msgctxt "Next post link"
+msgid "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+msgstr "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+
+#: inc/hooks.php:25
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: inc/hooks.php:28
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: inc/hooks.php:33
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: inc/hooks.php:35
+msgid "https://www.wp-script.com"
+msgstr "https://www.wp-script.com"
+
+#: inc/hooks.php:39
+msgid "Version: %1$s"
+msgstr "Version: %1$s"
+
+#: inc/init.php:7
+msgid "PopTube Theme needs %s to be installed and activated."
+msgstr "PopTube Theme needs %s to be installed and activated."
+
+#: inc/init.php:33
+msgid "Please purchase a VTube plan: %s"
+msgstr "Please purchase a VTube plan: %s"
+
+#: inc/pagination.php:49, inc/pagination.php:75
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: inc/pagination.php:50, inc/pagination.php:79
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: inc/pagination.php:51
+msgid "Posts navigation"
+msgstr "Posts navigation"
+
+#: inc/post-like.php:25
+msgid "I like this"
+msgstr "I like this"
+
+#: inc/post-like.php:29
+msgid "I dislike this"
+msgstr "I dislike this"
+
+#: inc/setup.php:39
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: inc/setup.php:40
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: inc/setup.php:122
+msgid "Read More..."
+msgstr "Read More..."
+
+#: inc/template-tags.php:23
+msgctxt "post date"
+msgid "Posted on"
+msgstr "Posted on"
+
+#: inc/template-tags.php:31
+msgctxt "post author"
+msgid "by"
+msgstr "by"
+
+#: inc/template-tags.php:31
+msgctxt "post author"
+msgid "Posted by"
+msgstr "Posted by"
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:49, inc/template-tags.php:55
+msgid ", "
+msgstr ", "
+
+#. translators: %s: Categories of current post
+#: inc/template-tags.php:52
+msgid "Posted in %s"
+msgstr "Posted in %s"
+
+#. translators: %s: Tags of current post
+#: inc/template-tags.php:58
+msgid "Tagged %s"
+msgstr "Tagged %s"
+
+#: inc/template-tags.php:63
+msgid "Leave a comment"
+msgstr "Leave a comment"
+
+#: inc/template-tags.php:63
+msgid "1 Comment"
+msgstr "1 Comment"
+
+#: inc/template-tags.php:63
+msgid "% Comments"
+msgstr "% Comments"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:69
+msgid "Edit %s"
+msgstr "Edit %s"
+
+#: inc/theme-activation.php:154
+msgid "Home"
+msgstr "Home"
+
+#: inc/theme-activation.php:204
+msgid "18 U.S.C 2257"
+msgstr "18 U.S.C 2257"
+
+#: inc/theme-activation.php:215
+msgid "DMCA"
+msgstr "DMCA"
+
+#: inc/theme-activation.php:226
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: inc/theme-activation.php:237
+msgid "Terms of Use"
+msgstr "Terms of Use"
+
+#. translators: %s: post title
+#: inc/video-functions.php:130
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+
+#: inc/widget-video.php:10
+msgid "Display blocks of videos sorted by views, date, popularity, category, etc."
+msgstr "Display blocks of videos sorted by views, date, popularity, category, etc."
+
+#: inc/widget-video.php:118
+msgid "More videos"
+msgstr "More videos"
+
+#: inc/widget-video.php:144
+msgid "Load more related videos"
+msgstr "Load more related videos"
+
+#: inc/widget-video.php:170
+msgid "Total videos"
+msgstr "Total videos"
+
+#: inc/widget-video.php:174
+msgid "Display"
+msgstr "Display"
+
+#: inc/widget-video.php:178
+msgid "Latest videos"
+msgstr "Latest videos"
+
+#: inc/widget-video.php:183
+msgid "Related videos"
+msgstr "Related videos"
+
+#: inc/widget-video.php:195
+msgid "All"
+msgstr "All"
+
+#: loop-templates/content-none.php:10
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: loop-templates/content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: loop-templates/content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#: loop-templates/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: loop-templates/content-page.php:18, loop-templates/content.php:36
+msgid "Pages:"
+msgstr "Pages:"
+
+#: loop-templates/content-page.php:25
+msgid "Edit"
+msgstr "Edit"
+
+#: loop-templates/content-single-video.php:80, loop-templates/loop-video-related.php:60, loop-templates/loop-video.php:58
+msgid "views"
+msgstr "views"
+
+#: loop-templates/content-single-video.php:88
+msgid "About"
+msgstr "About"
+
+#: loop-templates/content-single-video.php:90
+msgid "Comment"
+msgstr "Comment"
+
+#: loop-templates/content-single-video.php:91
+msgid "Share"
+msgstr "Share"
+
+#: loop-templates/content-video-player.php:267
+msgid "Close Advertising"
+msgstr "Close Advertising"
+
+#: loop-templates/loop-category.php:12
+msgid "videos"
+msgstr "videos"
+
+#: template-parts/content-header-search.php:11, template-parts/content-header-search.php:11, template-parts/content-header-search.php:11
+msgid "Search..."
+msgstr "Search..."

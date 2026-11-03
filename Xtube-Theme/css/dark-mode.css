@@ -1,0 +1,472 @@
+/**
+ * XTube Dark Mode Styles v3.0
+ * Comprehensive dark mode support for all theme components
+ * 
+ * @package XTube
+ * @version 3.0.0
+ */
+
+/* ============================================================
+   CORE DARK MODE STYLES
+   ============================================================ */
+body.dark-mode {
+    background-color: var(--xtube-bg-dark, #0a0a0a);
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+/* ============================================================
+   HEADER & NAVIGATION
+   ============================================================ */
+.dark-mode .header-nav,
+.dark-mode .navbar {
+    background-color: var(--xtube-surface-dark, #141414);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .navbar-nav .nav-link {
+    color: var(--xtube-text-dark, #ffffff) !important;
+}
+
+.dark-mode .navbar-nav .nav-link:hover {
+    color: var(--xtube-primary-dark, #e50914) !important;
+}
+
+.dark-mode .dropdown-menu {
+    background-color: var(--xtube-surface-dark, #141414);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .dropdown-item {
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .dropdown-item:hover {
+    background-color: rgba(229, 9, 20, 0.1);
+    color: var(--xtube-primary-dark, #e50914);
+}
+
+/* ============================================================
+   VIDEO PLAYER
+   ============================================================ */
+.dark-mode .xtube-video-container {
+    background: #000;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+}
+
+.dark-mode .xtube-video-player .vjs-control-bar {
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 100%);
+}
+
+.dark-mode .video-actions .btn {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .video-actions .btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* ============================================================
+   VIDEO GRID & CARDS
+   ============================================================ */
+.dark-mode .video-item,
+.dark-mode .video-card {
+    background-color: var(--xtube-surface-dark, #141414);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .video-item:hover,
+.dark-mode .video-card:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode .video-title {
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .video-meta {
+    color: var(--xtube-text-muted-dark, #a0a0a0);
+}
+
+/* ============================================================
+   SIDEBAR & WIDGETS
+   ============================================================ */
+.dark-mode .sidebar,
+.dark-mode .widget {
+    background-color: var(--xtube-surface-dark, #141414);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .widget-title {
+    color: var(--xtube-text-dark, #ffffff);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .widget ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .widget ul li a {
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .widget ul li a:hover {
+    color: var(--xtube-primary-dark, #e50914);
+}
+
+/* ============================================================
+   FORMS & INPUTS
+   ============================================================ */
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode input:focus,
+.dark-mode textarea:focus,
+.dark-mode select:focus {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: var(--xtube-primary-dark, #e50914);
+    box-shadow: 0 0 0 0.2rem rgba(229, 9, 20, 0.25);
+}
+
+.dark-mode .form-control::placeholder {
+    color: var(--xtube-text-muted-dark, #a0a0a0);
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.dark-mode .btn-primary {
+    background-color: var(--xtube-primary-dark, #e50914);
+    border-color: var(--xtube-primary-dark, #e50914);
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #ff0a16;
+    border-color: #ff0a16;
+}
+
+.dark-mode .btn-secondary {
+    background-color: var(--xtube-surface-dark, #141414);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.dark-mode .btn-outline-primary {
+    border-color: var(--xtube-primary-dark, #e50914);
+    color: var(--xtube-primary-dark, #e50914);
+}
+
+.dark-mode .btn-outline-primary:hover {
+    background-color: var(--xtube-primary-dark, #e50914);
+    color: #ffffff;
+}
+
+/* ============================================================
+   PAGINATION
+   ============================================================ */
+.dark-mode .pagination .page-link {
+    background-color: var(--xtube-surface-dark, #141414);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .pagination .page-link:hover {
+    background-color: var(--xtube-primary-dark, #e50914);
+    border-color: var(--xtube-primary-dark, #e50914);
+    color: #ffffff;
+}
+
+.dark-mode .pagination .page-item.active .page-link {
+    background-color: var(--xtube-primary-dark, #e50914);
+    border-color: var(--xtube-primary-dark, #e50914);
+}
+
+/* ============================================================
+   COMMENTS
+   ============================================================ */
+.dark-mode .comment-list {
+    background-color: transparent;
+}
+
+.dark-mode .comment-body {
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .comment-author {
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .comment-metadata {
+    color: var(--xtube-text-muted-dark, #a0a0a0);
+}
+
+.dark-mode .comment-content {
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.dark-mode footer,
+.dark-mode .site-footer {
+    background-color: var(--xtube-surface-dark, #141414);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .footer-widget {
+    background-color: transparent;
+}
+
+.dark-mode .footer-widget .widget-title {
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .footer-widget ul li a {
+    color: var(--xtube-text-muted-dark, #a0a0a0);
+}
+
+.dark-mode .footer-widget ul li a:hover {
+    color: var(--xtube-primary-dark, #e50914);
+}
+
+/* ============================================================
+   SEARCH RESULTS
+   ============================================================ */
+.dark-mode .search-results {
+    background-color: var(--xtube-surface-dark, #141414);
+}
+
+.dark-mode .search-result-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .search-result-item:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* ============================================================
+   TAGS & CATEGORIES
+   ============================================================ */
+.dark-mode .tag-cloud a,
+.dark-mode .category-list a {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .tag-cloud a:hover,
+.dark-mode .category-list a:hover {
+    background-color: var(--xtube-primary-dark, #e50914);
+    border-color: var(--xtube-primary-dark, #e50914);
+    color: #ffffff;
+}
+
+/* ============================================================
+   ALERTS & NOTIFICATIONS
+   ============================================================ */
+.dark-mode .alert {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .alert-info {
+    background-color: rgba(23, 162, 184, 0.1);
+    color: #17a2b8;
+}
+
+.dark-mode .alert-success {
+    background-color: rgba(40, 167, 69, 0.1);
+    color: #28a745;
+}
+
+.dark-mode .alert-warning {
+    background-color: rgba(255, 193, 7, 0.1);
+    color: #ffc107;
+}
+
+.dark-mode .alert-danger {
+    background-color: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+}
+
+/* ============================================================
+   MODALS & POPOVERS
+   ============================================================ */
+.dark-mode .modal-content {
+    background-color: var(--xtube-surface-dark, #141414);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .modal-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .popover {
+    background-color: var(--xtube-surface-dark, #141414);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================================
+   TABLES
+   ============================================================ */
+.dark-mode .table {
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .table th {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .table td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* ============================================================
+   CODE & PRE
+   ============================================================ */
+.dark-mode code {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--xtube-primary-dark, #e50914);
+}
+
+.dark-mode pre {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+/* ============================================================
+   BLOCKQUOTES
+   ============================================================ */
+.dark-mode blockquote {
+    border-left: 4px solid var(--xtube-primary-dark, #e50914);
+    background-color: rgba(255, 255, 255, 0.02);
+    color: var(--xtube-text-muted-dark, #a0a0a0);
+}
+
+/* ============================================================
+   ACCORDIONS & COLLAPSE
+   ============================================================ */
+.dark-mode .accordion-button {
+    background-color: var(--xtube-surface-dark, #141414);
+    color: var(--xtube-text-dark, #ffffff);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .accordion-button:not(.collapsed) {
+    background-color: rgba(229, 9, 20, 0.1);
+    color: var(--xtube-primary-dark, #e50914);
+}
+
+.dark-mode .accordion-collapse {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================================
+   TABS
+   ============================================================ */
+.dark-mode .nav-tabs .nav-link {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--xtube-text-muted-dark, #a0a0a0);
+}
+
+.dark-mode .nav-tabs .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+.dark-mode .nav-tabs .nav-link.active {
+    background-color: var(--xtube-surface-dark, #141414);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--xtube-text-dark, #ffffff);
+}
+
+/* ============================================================
+   PROGRESS BARS
+   ============================================================ */
+.dark-mode .progress {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .progress-bar {
+    background-color: var(--xtube-primary-dark, #e50914);
+}
+
+/* ============================================================
+   BADGES
+   ============================================================ */
+.dark-mode .badge {
+    background-color: var(--xtube-primary-dark, #e50914);
+}
+
+.dark-mode .badge-secondary {
+    background-color: var(--xtube-text-muted-dark, #a0a0a0);
+}
+
+/* ============================================================
+   CAROUSEL
+   ============================================================ */
+.dark-mode .carousel-control-prev-icon,
+.dark-mode .carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.dark-mode .carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dark-mode .carousel-indicators li.active {
+    background-color: var(--xtube-primary-dark, #e50914);
+}
+
+/* ============================================================
+   RESPONSIVE DARK MODE
+   ============================================================ */
+@media (max-width: 768px) {
+    .dark-mode .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .dark-mode .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+}
+
+/* ============================================================
+   PRINT STYLES
+   ============================================================ */
+@media print {
+    .dark-mode {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .dark-mode * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}

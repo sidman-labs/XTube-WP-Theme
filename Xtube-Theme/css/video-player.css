@@ -1,0 +1,364 @@
+/**
+ * XTube Advanced Video Player Styles v3.0
+ * Responsive design for portrait and landscape videos
+ * 
+ * @package XTube
+ * @version 3.0.0
+ */
+
+/* ============================================================
+   MAIN VIDEO CONTAINER
+   ============================================================ */
+.xtube-video-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+    aspect-ratio: 16/9;
+}
+
+/* ============================================================
+   VIDEO PLAYER STYLES
+   ============================================================ */
+.xtube-video-player {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+}
+
+/* Video.js customization */
+.xtube-video-player .vjs-tech {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.xtube-video-player .vjs-poster {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* ============================================================
+   VIDEO CONTROLS OVERLAY
+   ============================================================ */
+.xtube-video-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 50%, transparent 100%);
+    padding: 20px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.xtube-video-container:hover .xtube-video-overlay {
+    opacity: 1;
+}
+
+.video-info {
+    margin-bottom: 15px;
+}
+
+.video-info .video-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    font-family: 'Inter', 'Poppins', sans-serif;
+    line-height: 1.2;
+}
+
+.video-info .video-duration {
+    font-size: 14px;
+    opacity: 0.8;
+    font-family: 'Inter', sans-serif;
+}
+
+.video-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.video-actions .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.video-actions .btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.video-actions .btn i {
+    font-size: 12px;
+}
+
+/* ============================================================
+   RESPONSIVE DESIGN
+   ============================================================ */
+@media (max-width: 1200px) {
+    .xtube-video-container {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .xtube-video-container {
+        margin: 15px 0;
+        border-radius: 10px;
+    }
+    
+    .video-info .video-title {
+        font-size: 16px;
+    }
+    
+    .video-actions .btn {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .xtube-video-container {
+        margin: 15px 0;
+        border-radius: 8px;
+        aspect-ratio: 16/9;
+    }
+    
+    .xtube-video-overlay {
+        padding: 15px;
+    }
+    
+    .video-info .video-title {
+        font-size: 15px;
+        line-height: 1.1;
+    }
+    
+    .video-actions {
+        gap: 8px;
+    }
+    
+    .video-actions .btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+    
+    .video-actions .btn span {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .xtube-video-container {
+        margin: 15px 0;
+        border-radius: 8px;
+        aspect-ratio: 16/9;
+    }
+    
+    .xtube-video-overlay {
+        padding: 12px;
+        background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 60%, transparent 100%);
+    }
+    
+    .video-info .video-title {
+        font-size: 14px;
+    }
+    
+    .video-info .video-duration {
+        font-size: 13px;
+    }
+    
+    .video-actions {
+        gap: 6px;
+    }
+    
+    .video-actions .btn {
+        padding: 5px 8px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .xtube-video-overlay {
+        opacity: 1;
+        background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 60%, transparent 100%);
+    }
+    
+    .video-actions {
+        justify-content: center;
+    }
+    
+    .video-actions .btn {
+        flex: 1;
+        justify-content: center;
+        min-width: 0;
+    }
+}
+
+/* ============================================================
+   DARK MODE SUPPORT
+   ============================================================ */
+.dark-mode .xtube-video-container {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .video-actions .btn {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .video-actions .btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* ============================================================
+   VIDEO.JS CUSTOMIZATION
+   ============================================================ */
+.xtube-video-player .vjs-control-bar {
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 100%);
+    backdrop-filter: blur(10px);
+}
+
+.xtube-video-player .vjs-play-progress,
+.xtube-video-player .vjs-volume-level {
+    background: #e50914;
+}
+
+.xtube-video-player .vjs-slider-bar {
+    background: #e50914;
+}
+
+.xtube-video-player .vjs-big-play-button {
+    background: rgba(229, 9, 20, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    transition: all 0.3s ease;
+}
+
+.xtube-video-player .vjs-big-play-button:hover {
+    background: rgba(229, 9, 20, 1);
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(229, 9, 20, 0.5);
+}
+
+/* ============================================================
+   LOADING STATES
+   ============================================================ */
+.xtube-video-container.loading {
+    position: relative;
+}
+
+.xtube-video-container.loading::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+}
+
+.xtube-video-container.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0 -20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-top: 3px solid #e50914;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 21;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ============================================================
+   ACCESSIBILITY
+   ============================================================ */
+.xtube-video-container:focus-within {
+    outline: 2px solid #e50914;
+    outline-offset: 2px;
+}
+
+.xtube-video-player:focus {
+    outline: none;
+}
+
+.video-actions .btn:focus {
+    outline: 2px solid #e50914;
+    outline-offset: 2px;
+}
+
+/* ============================================================
+   HIGH DPI/RETINA SUPPORT
+   ============================================================ */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .xtube-video-player .vjs-big-play-button {
+        border-width: 0.5px;
+    }
+    
+    .video-actions .btn {
+        border-width: 0.5px;
+    }
+}
+
+/* ============================================================
+   REDUCED MOTION SUPPORT
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+    .xtube-video-overlay,
+    .video-actions .btn,
+    .xtube-video-player .vjs-big-play-button {
+        transition: none;
+    }
+    
+    .xtube-video-container.loading::after {
+        animation: none;
+    }
+}
+
+/* ============================================================
+   PRINT STYLES
+   ============================================================ */
+@media print {
+    .xtube-video-container {
+        display: none;
+    }
+}
